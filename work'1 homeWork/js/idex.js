@@ -1,5 +1,5 @@
-var bebyEge = 15;
-var middleEge = 20;
+var bebyEge = 7;
+var middleEge = 10;
 const seniorEge = 31;
 
 if (middleEge == 20) {
@@ -12,7 +12,7 @@ if (middleEge == 20) {
 
 if (bebyEge == 10) {
     window.open('http://google.com')
-} else if (bebyEge <= 10) {
+} else if (bebyEge >= 10) {
    alert('yeurEgeIsNotEvebleToJoin')
 } else {
     alert('by')
@@ -26,4 +26,18 @@ if (seniorEge == 30){
    alert('new Boy')
 } else {
     alert('new')
+}
+
+
+function logIn() {
+  const user = 12;
+   if  (user == 10){
+     alert('u are ')
+     window.open('https://www.google.com')
+   } else if (user >= 10 && user <= 20){
+    alert('u gey?')
+    window.open('https://flexboxfroggy.com/#ru')
+   } else {
+    alert('u')
+   }
 }
