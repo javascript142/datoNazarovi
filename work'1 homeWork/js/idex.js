@@ -24,4 +24,6 @@ if (seniorEge == 30){
     alert('oldBoy')
 } else if (seniorEge >= 30) {
    alert('new Boy')
+} else {
+    alert('new')
 }
