@@ -25,8 +25,8 @@ let num3 = 3;
 let num4 = 40;
 // alert(num1 + num2.toString() + num4 + ( num3 + num4));
 // alert(parseInt(num3) + ' ' + num4)
-// alert(String(num1 ) + String(num2))
-// alert(Array.isArray(num4))
+//alert(String(num1 ) + String(num2))
+ alert(Array.isArray(num4))
 
 
 let men = {
