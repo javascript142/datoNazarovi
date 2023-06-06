@@ -57,4 +57,6 @@ let num4 = "3"
 
 let num5 = 2;
 let num6 = 3;
-alert(String(num5) + ' ' + String(num6));
+// alert(String(num5) + ' ' + String(num6));
+// alert(typeof 10);
+alert(Array.isArray(arrayOfNumber));
