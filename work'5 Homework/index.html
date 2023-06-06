@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>canculator</title>
+</head>
+<body> 
+
+    <div class="center">
+        <div class="circle"></div>
+        <h1>loading ....</h1>
+    </div>
+
+    <div class="conteiner">
+                <div class="display">
+                    <input type="text" id="canculator">    
+                </div>
+            <div class="firstbutton">
+                <button type="submit"  onclick="zero()">0</button>
+                <button type="submit"  onclick="one()">1</button>
+                <button type="submit"  onclick="two()">2</button>
+            </div>
+            <div class="firstbutton">
+                <button  type="submit" onclick="tree()">3</button>
+                <button type="submit"  onclick="four()">4</button>
+                <button type="submit"  onclick="five()">5</button>
+                <button type="submit"  onclick="six()">6</button>
+            </div>
+            <div class="firstbutton">
+                <button  type="submit" onclick="seven()">7</button>
+                <button  type="submit" onclick="eit()">8</button>
+                <button type="submit"  onclick="nain()">9</button>
+                <button  type="submit" onclick=" canculator.value = canculator.value.toString().slice(0,-1)"> del </button>
+                <button  type="submit" onclick=" canculator.value = canculator.value.toString().slice(0,0)"> AC </button>
+            </div>
+            <div class="firstbutton">
+                <button type="submit" onclick="minus()">-</button>
+                <button type="submit"  onclick="canculator.value +=  '/' ">/</button>
+                <button  type="submit" onclick="canculator.value +=  '*' ">*</button>
+                <button type="submit" onclick="equal()">eqols</button>
+                <button type="submit"  onclick="plus()">+</button>
+            </div>
+        
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
