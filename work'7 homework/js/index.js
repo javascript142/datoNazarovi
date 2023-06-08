@@ -4,6 +4,8 @@ const divUser = document.getElementById('result');
 
 fileinput.addEventListener('change', () => {
     const fr = new FileReader();
+
+    
     fr.readAsText(fileinput.files[0]);
     fr.addEventListener('load', () => {
         divUser.textContent = fr.result;
